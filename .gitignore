@@ -1,0 +1,40 @@
+.claude
+
+# Environment
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build / dist
+*.egg-info/
+dist/
+build/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Output data (user-generated, not committed)
+data/output/
+data/input/*_backup_*.docx
+
+# OS
+.DS_Store
+Thumbs.db
